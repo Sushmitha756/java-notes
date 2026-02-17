@@ -1,5 +1,5 @@
-From openjdk
-WORKDIR /demo
-ADD . /demo/
-RUN javac operators.java
-CMD ["java","operators"]
+FROM king019/jdk:latest
+WORKDIR /app
+COPY . /app
+RUN javac controlstatements.java
+CMD ["java","controlstatements"]
