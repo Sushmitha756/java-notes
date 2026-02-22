@@ -46,24 +46,37 @@ class controlstatements {
 //     System.out.println("have separate marks");
 // }
 
-   int marks = 90;
-   System.out.println("name:Sushma");
-   if(marks >= 85){
-    System.out.println("grade: A+");
-   }
-   else if(marks >= 75 && marks < 85){
-    System.out.println("A");
-   }
-   else if(marks >= 60 && marks < 75){
-    System.out.println("B+");
-   }
-   else if(marks >= 55 && marks < 60){
-    System.out.println("B");
-   }
-   else{
-    System.out.println("FAIL");
-   }
+//    int marks = 90;
+//    System.out.println("name:Sushma");
+//    if(marks >= 85){
+//     System.out.println("grade: A+");
+//    }
+//    else if(marks >= 75 && marks < 85){
+//     System.out.println("A");
+//    }
+//    else if(marks >= 60 && marks < 75){
+//     System.out.println("B+");
+//    }
+//    else if(marks >= 55 && marks < 60){
+//     System.out.println("B");
+//    }
+//    else{
+//     System.out.println("FAIL");
+//    }
    
+
+char a = 'A';
+int b = 1;
+boolean c = true;
+for(int i = 1;i<=3;i++){
+    for(int k=1;k<=3;k++){
+        System.out.println("  ");
+    }
+    for(int j=1;j<=3;j++){
+        System.out.println("*");
+    }
+    System.out.println();
+}
     }
     
 }
