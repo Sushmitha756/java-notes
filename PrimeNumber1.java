@@ -1,4 +1,4 @@
-public class Task2 {
+public class PrimeNumber1 {
     public static void main(String[] args) {
         int a = 5;
         if (isPrime(a)) {
